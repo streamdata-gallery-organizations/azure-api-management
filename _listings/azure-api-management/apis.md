@@ -12,8 +12,8 @@ tags:
 - Stack Network
 - Microsoft
 - Management
-created: "2018-03-21"
-modified: "2018-03-21"
+created: "2018-03-25"
+modified: "2018-03-25"
 url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-api-management/master/_listings/azure-api-management/apis.yaml
 specificationVersion: "0.14"
 apis:
