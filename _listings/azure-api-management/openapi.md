@@ -4,7 +4,7 @@ x-collection-name: Azure API Management
 x-complete: 1
 info:
   title: ApiManagementClient
-  description: use-these-rest-apis-for-performing-operations-on-user-entity-in-azure-api-management-deployment-the-user-entity-in-api-management-represents-the-developers-that-call-the-apis-of-the-products-to-which-they-are-subscribed
+  description: use-these-rest-apis-for-performing-operations-on-user-entity-in-azure-api-management-deployment--the-user-entity-in-api-management-represents-the-developers-that-call-the-apis-of-the-products-to-which-they-are-subscribed-
   version: 1.0.0
 host: management.azure.com
 basePath: /
@@ -20,7 +20,7 @@ paths:
       summary: PolicySnippets ListByService
       description: Lists all policy snippets.
       operationId: PolicySnippets_ListByService
-      x-api-path-slug: subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoftapimanagementserviceservicenamepolicysnippets-get
+      x-api-path-slug: subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-apimanagementserviceservicenamepolicysnippets-get
       parameters:
       - in: query
         name: No Name
@@ -37,7 +37,7 @@ paths:
       summary: Regions ListByService
       description: Lists all azure regions in which the service exists.
       operationId: Regions_ListByService
-      x-api-path-slug: subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoftapimanagementserviceservicenameregions-get
+      x-api-path-slug: subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-apimanagementserviceservicenameregions-get
       parameters:
       - in: query
         name: No Name
@@ -51,7 +51,7 @@ paths:
       summary: Apis ListByService
       description: Lists all APIs of the API Management service instance.
       operationId: Apis_ListByService
-      x-api-path-slug: subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoftapimanagementserviceservicenameapis-get
+      x-api-path-slug: subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-apimanagementserviceservicenameapis-get
       parameters:
       - in: query
         name: $filter
@@ -74,7 +74,7 @@ paths:
       summary: Apis Get
       description: Gets the details of the API specified by its identifier.
       operationId: Apis_Get
-      x-api-path-slug: subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoftapimanagementserviceservicenameapisapiid-get
+      x-api-path-slug: subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-apimanagementserviceservicenameapisapiid-get
       parameters:
       - in: query
         name: No Name
@@ -88,7 +88,7 @@ paths:
       description: Creates new or updates existing specified API of the API Management
         service instance.
       operationId: Apis_CreateOrUpdate
-      x-api-path-slug: subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoftapimanagementserviceservicenameapisapiid-put
+      x-api-path-slug: subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-apimanagementserviceservicenameapisapiid-put
       parameters:
       - in: header
         name: If-Match
@@ -109,7 +109,7 @@ paths:
       summary: Apis Update
       description: Updates the specified API of the API Management service instance.
       operationId: Apis_Update
-      x-api-path-slug: subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoftapimanagementserviceservicenameapisapiid-patch
+      x-api-path-slug: subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-apimanagementserviceservicenameapisapiid-patch
       parameters:
       - in: header
         name: If-Match
@@ -130,7 +130,7 @@ paths:
       summary: Apis Delete
       description: Deletes the specified API of the API Management service instance.
       operationId: Apis_Delete
-      x-api-path-slug: subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoftapimanagementserviceservicenameapisapiid-delete
+      x-api-path-slug: subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-apimanagementserviceservicenameapisapiid-delete
       parameters:
       - in: header
         name: If-Match
@@ -147,7 +147,7 @@ paths:
       summary: ApiOperations ListByApis
       description: Lists a collection of the operations for the specified API.
       operationId: ApiOperations_ListByApis
-      x-api-path-slug: subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoftapimanagementserviceservicenameapisapiidoperations-get
+      x-api-path-slug: subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-apimanagementserviceservicenameapisapiidoperations-get
       parameters:
       - in: query
         name: $filter
@@ -169,7 +169,7 @@ paths:
       summary: ApiOperations Get
       description: Gets the details of the API Operation specified by its identifier.
       operationId: ApiOperations_Get
-      x-api-path-slug: subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoftapimanagementserviceservicenameapisapiidoperationsoperationid-get
+      x-api-path-slug: subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-apimanagementserviceservicenameapisapiidoperationsoperationid-get
       parameters:
       - in: query
         name: No Name
@@ -182,7 +182,7 @@ paths:
       summary: ApiOperations CreateOrUpdate
       description: Creates a new API operation or updates an existing one.
       operationId: ApiOperations_CreateOrUpdate
-      x-api-path-slug: subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoftapimanagementserviceservicenameapisapiidoperationsoperationid-put
+      x-api-path-slug: subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-apimanagementserviceservicenameapisapiidoperationsoperationid-put
       parameters:
       - in: query
         name: No Name
@@ -200,7 +200,7 @@ paths:
       summary: ApiOperations Update
       description: Updates the details of the operation specified by its identifier.
       operationId: ApiOperations_Update
-      x-api-path-slug: subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoftapimanagementserviceservicenameapisapiidoperationsoperationid-patch
+      x-api-path-slug: subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-apimanagementserviceservicenameapisapiidoperationsoperationid-patch
       parameters:
       - in: header
         name: If-Match
@@ -221,7 +221,7 @@ paths:
       summary: ApiOperations Delete
       description: Deletes the specified operation.
       operationId: ApiOperations_Delete
-      x-api-path-slug: subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoftapimanagementserviceservicenameapisapiidoperationsoperationid-delete
+      x-api-path-slug: subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-apimanagementserviceservicenameapisapiidoperationsoperationid-delete
       parameters:
       - in: header
         name: If-Match
@@ -238,7 +238,7 @@ paths:
       summary: ApiOperationsPolicy Get
       description: Get the policy configuration at the API Operation level.
       operationId: ApiOperationsPolicy_Get
-      x-api-path-slug: subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoftapimanagementserviceservicenameapisapiidoperationsoperationidpolicy-get
+      x-api-path-slug: subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-apimanagementserviceservicenameapisapiidoperationsoperationidpolicy-get
       parameters:
       - in: query
         name: No Name
@@ -251,7 +251,7 @@ paths:
       summary: ApiOperationsPolicy CreateOrUpdate
       description: Creates or updates policy configuration for the API Operation level.
       operationId: ApiOperationsPolicy_CreateOrUpdate
-      x-api-path-slug: subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoftapimanagementserviceservicenameapisapiidoperationsoperationidpolicy-put
+      x-api-path-slug: subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-apimanagementserviceservicenameapisapiidoperationsoperationidpolicy-put
       parameters:
       - in: header
         name: If-Match
@@ -273,7 +273,7 @@ paths:
       summary: ApiOperationsPolicy Delete
       description: Deletes the policy configuration at the Api Operation.
       operationId: ApiOperationsPolicy_Delete
-      x-api-path-slug: subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoftapimanagementserviceservicenameapisapiidoperationsoperationidpolicy-delete
+      x-api-path-slug: subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-apimanagementserviceservicenameapisapiidoperationsoperationidpolicy-delete
       parameters:
       - in: header
         name: If-Match
@@ -291,7 +291,7 @@ paths:
       summary: ApiProducts ListByApis
       description: Lists all API associated products.
       operationId: ApiProducts_ListByApis
-      x-api-path-slug: subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoftapimanagementserviceservicenameapisapiidproducts-get
+      x-api-path-slug: subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-apimanagementserviceservicenameapisapiidproducts-get
       parameters:
       - in: query
         name: $filter
@@ -310,7 +310,7 @@ paths:
       summary: ApiPolicy Get
       description: Get the policy configuration at the API level.
       operationId: ApiPolicy_Get
-      x-api-path-slug: subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoftapimanagementserviceservicenameapisapiidpolicy-get
+      x-api-path-slug: subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-apimanagementserviceservicenameapisapiidpolicy-get
       parameters:
       - in: query
         name: No Name
@@ -323,7 +323,7 @@ paths:
       summary: ApiPolicy CreateOrUpdate
       description: Creates or updates policy configuration for the API.
       operationId: ApiPolicy_CreateOrUpdate
-      x-api-path-slug: subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoftapimanagementserviceservicenameapisapiidpolicy-put
+      x-api-path-slug: subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-apimanagementserviceservicenameapisapiidpolicy-put
       parameters:
       - in: header
         name: If-Match
@@ -344,7 +344,7 @@ paths:
       summary: ApiPolicy Delete
       description: Deletes the policy configuration at the Api.
       operationId: ApiPolicy_Delete
-      x-api-path-slug: subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoftapimanagementserviceservicenameapisapiidpolicy-delete
+      x-api-path-slug: subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-apimanagementserviceservicenameapisapiidpolicy-delete
       parameters:
       - in: header
         name: If-Match
@@ -362,7 +362,7 @@ paths:
       description: Lists a collection of authorization servers defined within a service
         instance.
       operationId: AuthorizationServers_ListByService
-      x-api-path-slug: subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoftapimanagementserviceservicenameauthorizationservers-get
+      x-api-path-slug: subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-apimanagementserviceservicenameauthorizationservers-get
       parameters:
       - in: query
         name: $filter
@@ -382,7 +382,7 @@ paths:
       summary: AuthorizationServers Get
       description: Gets the details of the authorization server specified by its identifier.
       operationId: AuthorizationServers_Get
-      x-api-path-slug: subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoftapimanagementserviceservicenameauthorizationserversauthsid-get
+      x-api-path-slug: subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-apimanagementserviceservicenameauthorizationserversauthsid-get
       parameters:
       - in: query
         name: No Name
@@ -396,7 +396,7 @@ paths:
       description: Creates new authorization server or updates an existing authorization
         server.
       operationId: AuthorizationServers_CreateOrUpdate
-      x-api-path-slug: subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoftapimanagementserviceservicenameauthorizationserversauthsid-put
+      x-api-path-slug: subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-apimanagementserviceservicenameauthorizationserversauthsid-put
       parameters:
       - in: query
         name: No Name
@@ -415,7 +415,7 @@ paths:
       description: Updates the details of the authorization server specified by its
         identifier.
       operationId: AuthorizationServers_Update
-      x-api-path-slug: subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoftapimanagementserviceservicenameauthorizationserversauthsid-patch
+      x-api-path-slug: subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-apimanagementserviceservicenameauthorizationserversauthsid-patch
       parameters:
       - in: header
         name: If-Match
@@ -437,7 +437,7 @@ paths:
       summary: AuthorizationServers Delete
       description: Deletes specific authorization server instance.
       operationId: AuthorizationServers_Delete
-      x-api-path-slug: subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoftapimanagementserviceservicenameauthorizationserversauthsid-delete
+      x-api-path-slug: subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-apimanagementserviceservicenameauthorizationserversauthsid-delete
       parameters:
       - in: header
         name: If-Match
@@ -455,7 +455,7 @@ paths:
       summary: Backends ListByService
       description: Lists a collection of backends in the specified service instance.
       operationId: Backends_ListByService
-      x-api-path-slug: subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoftapimanagementserviceservicenamebackends-get
+      x-api-path-slug: subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-apimanagementserviceservicenamebackends-get
       parameters:
       - in: query
         name: $filter
@@ -475,7 +475,7 @@ paths:
       summary: Backends Get
       description: Gets the details of the backend specified by its identifier.
       operationId: Backends_Get
-      x-api-path-slug: subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoftapimanagementserviceservicenamebackendsbackendid-get
+      x-api-path-slug: subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-apimanagementserviceservicenamebackendsbackendid-get
       parameters:
       - in: query
         name: No Name
@@ -488,7 +488,7 @@ paths:
       summary: Backends CreateOrUpdate
       description: Creates or Updates a backend.
       operationId: Backends_CreateOrUpdate
-      x-api-path-slug: subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoftapimanagementserviceservicenamebackendsbackendid-put
+      x-api-path-slug: subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-apimanagementserviceservicenamebackendsbackendid-put
       parameters:
       - in: query
         name: No Name
@@ -506,7 +506,7 @@ paths:
       summary: Backends Update
       description: Updates an existing backend.
       operationId: Backends_Update
-      x-api-path-slug: subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoftapimanagementserviceservicenamebackendsbackendid-patch
+      x-api-path-slug: subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-apimanagementserviceservicenamebackendsbackendid-patch
       parameters:
       - in: header
         name: If-Match
@@ -527,7 +527,7 @@ paths:
       summary: Backends Delete
       description: Deletes the specified backend.
       operationId: Backends_Delete
-      x-api-path-slug: subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoftapimanagementserviceservicenamebackendsbackendid-delete
+      x-api-path-slug: subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-apimanagementserviceservicenamebackendsbackendid-delete
       parameters:
       - in: header
         name: If-Match
@@ -545,7 +545,7 @@ paths:
       description: Lists a collection of all certificates in the specified service
         instance.
       operationId: Certificates_ListByService
-      x-api-path-slug: subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoftapimanagementserviceservicenamecertificates-get
+      x-api-path-slug: subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-apimanagementserviceservicenamecertificates-get
       parameters:
       - in: query
         name: $filter
@@ -567,7 +567,7 @@ paths:
       summary: Certificates Get
       description: Gets the details of the certificate specified by its identifier.
       operationId: Certificates_Get
-      x-api-path-slug: subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoftapimanagementserviceservicenamecertificatescertificateid-get
+      x-api-path-slug: subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-apimanagementserviceservicenamecertificatescertificateid-get
       parameters:
       - in: query
         name: No Name
@@ -581,7 +581,7 @@ paths:
       description: Creates or updates the certificate being used for authentication
         with the backend.
       operationId: Certificates_CreateOrUpdate
-      x-api-path-slug: subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoftapimanagementserviceservicenamecertificatescertificateid-put
+      x-api-path-slug: subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-apimanagementserviceservicenamecertificatescertificateid-put
       parameters:
       - in: header
         name: If-Match
@@ -602,7 +602,7 @@ paths:
       summary: Certificates Delete
       description: Deletes specific certificate.
       operationId: Certificates_Delete
-      x-api-path-slug: subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoftapimanagementserviceservicenamecertificatescertificateid-delete
+      x-api-path-slug: subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-apimanagementserviceservicenamecertificatescertificateid-delete
       parameters:
       - in: header
         name: If-Match
@@ -620,7 +620,7 @@ paths:
       description: Lists all of the available REST API operations of the Microsoft.ApiManagement
         provider.
       operationId: ApiManagementOperations_List
-      x-api-path-slug: providersmicrosoftapimanagementoperations-get
+      x-api-path-slug: providersmicrosoft-apimanagementoperations-get
       parameters:
       - in: query
         name: No Name
@@ -637,7 +637,7 @@ paths:
         Tier (Developer/Standard/Premium) and Manage VPN Configuration. This is a
         long running operation and can take several minutes to complete.'
       operationId: ApiManagementServices_ManageDeployments
-      x-api-path-slug: subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoftapimanagementserviceservicenamemanagedeployments-post
+      x-api-path-slug: subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-apimanagementserviceservicenamemanagedeployments-post
       parameters:
       - in: query
         name: No Name
@@ -658,7 +658,7 @@ paths:
         ApiManagementServices_Backup operation on the current service. This is a long
         running operation and could take several minutes to complete.
       operationId: ApiManagementServices_Restore
-      x-api-path-slug: subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoftapimanagementserviceservicenamerestore-post
+      x-api-path-slug: subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-apimanagementserviceservicenamerestore-post
       parameters:
       - in: query
         name: No Name
@@ -680,7 +680,7 @@ paths:
         Storage Account. This is long running operation and could take several minutes
         to complete.
       operationId: ApiManagementServices_Backup
-      x-api-path-slug: subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoftapimanagementserviceservicenamebackup-post
+      x-api-path-slug: subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-apimanagementserviceservicenamebackup-post
       parameters:
       - in: query
         name: No Name
@@ -700,7 +700,7 @@ paths:
       description: Creates or updates an API Management service. This is long running
         operation and could take several minutes to complete.
       operationId: ApiManagementServices_CreateOrUpdate
-      x-api-path-slug: subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoftapimanagementserviceservicename-put
+      x-api-path-slug: subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-apimanagementserviceservicename-put
       parameters:
       - in: query
         name: No Name
@@ -719,7 +719,7 @@ paths:
       summary: ApiManagementServices Update
       description: Updates an existing API Management service.
       operationId: ApiManagementServices_Update
-      x-api-path-slug: subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoftapimanagementserviceservicename-patch
+      x-api-path-slug: subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-apimanagementserviceservicename-patch
       parameters:
       - in: query
         name: No Name
@@ -738,7 +738,7 @@ paths:
       summary: ApiManagementServices Get
       description: Gets an API Management service resource description.
       operationId: ApiManagementServices_Get
-      x-api-path-slug: subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoftapimanagementserviceservicename-get
+      x-api-path-slug: subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-apimanagementserviceservicename-get
       parameters:
       - in: query
         name: No Name
@@ -751,7 +751,7 @@ paths:
       summary: ApiManagementServices Delete
       description: Deletes an existing API Management service.
       operationId: ApiManagementServices_Delete
-      x-api-path-slug: subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoftapimanagementserviceservicename-delete
+      x-api-path-slug: subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-apimanagementserviceservicename-delete
       parameters:
       - in: query
         name: No Name
@@ -765,7 +765,7 @@ paths:
       summary: API Management Services ListByResourceGroup
       description: List all API Management services within a resource group.
       operationId: ApiManagementServices_ListByResourceGroup
-      x-api-path-slug: subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoftapimanagementservice-get
+      x-api-path-slug: subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-apimanagementservice-get
       parameters:
       - in: query
         name: No Name
@@ -779,7 +779,7 @@ paths:
       summary: API Management Services List
       description: Lists all API Management services within an Azure subscription.
       operationId: ApiManagementServices_List
-      x-api-path-slug: subscriptionssubscriptionidprovidersmicrosoftapimanagementservice-get
+      x-api-path-slug: subscriptionssubscriptionidprovidersmicrosoft-apimanagementservice-get
       parameters:
       - in: query
         name: No Name
@@ -794,7 +794,7 @@ paths:
       description: Gets the Single-Sign-On token for the API Management Service which
         is valid for 5 Minutes.
       operationId: ApiManagementServices_GetSsoToken
-      x-api-path-slug: subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoftapimanagementserviceservicenamegetssotoken-post
+      x-api-path-slug: subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-apimanagementserviceservicenamegetssotoken-post
       parameters:
       - in: query
         name: No Name
@@ -809,7 +809,7 @@ paths:
       description: Checks availability and correctness of a name for an API Management
         service.
       operationId: ApiManagementServices_CheckNameAvailability
-      x-api-path-slug: subscriptionssubscriptionidprovidersmicrosoftapimanagementchecknameavailability-post
+      x-api-path-slug: subscriptionssubscriptionidprovidersmicrosoft-apimanagementchecknameavailability-post
       parameters:
       - in: query
         name: No Name
@@ -828,7 +828,7 @@ paths:
       summary: ApiManagementServices UploadCertificate
       description: Upload Custom Domain SSL certificate for an API Management service.
       operationId: ApiManagementServices_UploadCertificate
-      x-api-path-slug: subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoftapimanagementserviceservicenameuploadcertificate-post
+      x-api-path-slug: subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-apimanagementserviceservicenameuploadcertificate-post
       parameters:
       - in: query
         name: No Name
@@ -850,7 +850,7 @@ paths:
         service. The custom hostname can be applied to the Proxy and Portal endpoint.
         This is a long running operation and could take several minutes to complete.
       operationId: ApiManagementServices_UpdateHostname
-      x-api-path-slug: subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoftapimanagementserviceservicenameupdatehostname-post
+      x-api-path-slug: subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-apimanagementserviceservicenameupdatehostname-post
       parameters:
       - in: query
         name: No Name
@@ -870,7 +870,7 @@ paths:
       description: Updates the Microsoft.ApiManagement resource running in the Virtual
         network to pick the updated network settings.
       operationId: ApiManagementServices_ApplyNetworkConfigurationUpdates
-      x-api-path-slug: subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoftapimanagementserviceservicenameapplynetworkconfigurationupdates-post
+      x-api-path-slug: subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-apimanagementserviceservicenameapplynetworkconfigurationupdates-post
       parameters:
       - in: query
         name: No Name
@@ -884,7 +884,7 @@ paths:
       summary: Groups ListByService
       description: Lists a collection of groups defined within a service instance.
       operationId: Groups_ListByService
-      x-api-path-slug: subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoftapimanagementserviceservicenamegroups-get
+      x-api-path-slug: subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-apimanagementserviceservicenamegroups-get
       parameters:
       - in: query
         name: $filter
@@ -906,7 +906,7 @@ paths:
       summary: Groups Get
       description: Gets the details of the group specified by its identifier.
       operationId: Groups_Get
-      x-api-path-slug: subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoftapimanagementserviceservicenamegroupsgroupid-get
+      x-api-path-slug: subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-apimanagementserviceservicenamegroupsgroupid-get
       parameters:
       - in: query
         name: No Name
@@ -919,7 +919,7 @@ paths:
       summary: Groups CreateOrUpdate
       description: Creates or Updates a group.
       operationId: Groups_CreateOrUpdate
-      x-api-path-slug: subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoftapimanagementserviceservicenamegroupsgroupid-put
+      x-api-path-slug: subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-apimanagementserviceservicenamegroupsgroupid-put
       parameters:
       - in: query
         name: No Name
@@ -937,7 +937,7 @@ paths:
       summary: Groups Update
       description: Updates the details of the group specified by its identifier.
       operationId: Groups_Update
-      x-api-path-slug: subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoftapimanagementserviceservicenamegroupsgroupid-patch
+      x-api-path-slug: subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-apimanagementserviceservicenamegroupsgroupid-patch
       parameters:
       - in: header
         name: If-Match
@@ -958,7 +958,7 @@ paths:
       summary: Groups Delete
       description: Deletes specific group of the API Management service instance.
       operationId: Groups_Delete
-      x-api-path-slug: subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoftapimanagementserviceservicenamegroupsgroupid-delete
+      x-api-path-slug: subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-apimanagementserviceservicenamegroupsgroupid-delete
       parameters:
       - in: header
         name: If-Match
@@ -976,7 +976,7 @@ paths:
       description: Lists a collection of the members of the group, specified by its
         identifier.
       operationId: GroupUsers_ListByGroups
-      x-api-path-slug: subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoftapimanagementserviceservicenamegroupsgroupidusers-get
+      x-api-path-slug: subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-apimanagementserviceservicenamegroupsgroupidusers-get
       parameters:
       - in: query
         name: $filter
@@ -1001,7 +1001,7 @@ paths:
       summary: GroupUsers Create
       description: Adds a user to the specified group.
       operationId: GroupUsers_Create
-      x-api-path-slug: subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoftapimanagementserviceservicenamegroupsgroupidusersuid-put
+      x-api-path-slug: subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-apimanagementserviceservicenamegroupsgroupidusersuid-put
       parameters:
       - in: query
         name: No Name
@@ -1014,7 +1014,7 @@ paths:
       summary: GroupUsers Delete
       description: Remove existing user from existing group.
       operationId: GroupUsers_Delete
-      x-api-path-slug: subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoftapimanagementserviceservicenamegroupsgroupidusersuid-delete
+      x-api-path-slug: subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-apimanagementserviceservicenamegroupsgroupidusersuid-delete
       parameters:
       - in: query
         name: No Name
@@ -1029,7 +1029,7 @@ paths:
       description: Lists a collection of Identity Provider configured in the specified
         service instance.
       operationId: IdentityProviders_ListByService
-      x-api-path-slug: subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoftapimanagementserviceservicenameidentityproviders-get
+      x-api-path-slug: subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-apimanagementserviceservicenameidentityproviders-get
       parameters:
       - in: query
         name: No Name
@@ -1044,7 +1044,7 @@ paths:
       description: Gets the configuration details of the identity Provider configured
         in specified service instance.
       operationId: IdentityProviders_Get
-      x-api-path-slug: subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoftapimanagementserviceservicenameidentityprovidersidentityprovidername-get
+      x-api-path-slug: subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-apimanagementserviceservicenameidentityprovidersidentityprovidername-get
       parameters:
       - in: query
         name: No Name
@@ -1057,7 +1057,7 @@ paths:
       summary: IdentityProviders CreateOrUpdate
       description: Creates or Updates the IdentityProvider configuration.
       operationId: IdentityProviders_CreateOrUpdate
-      x-api-path-slug: subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoftapimanagementserviceservicenameidentityprovidersidentityprovidername-put
+      x-api-path-slug: subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-apimanagementserviceservicenameidentityprovidersidentityprovidername-put
       parameters:
       - in: query
         name: No Name
@@ -1075,7 +1075,7 @@ paths:
       summary: IdentityProviders Update
       description: Updates an existing IdentityProvider configuration.
       operationId: IdentityProviders_Update
-      x-api-path-slug: subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoftapimanagementserviceservicenameidentityprovidersidentityprovidername-patch
+      x-api-path-slug: subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-apimanagementserviceservicenameidentityprovidersidentityprovidername-patch
       parameters:
       - in: header
         name: If-Match
@@ -1097,7 +1097,7 @@ paths:
       summary: IdentityProviders Delete
       description: Deletes the specified identity provider configuration.
       operationId: IdentityProviders_Delete
-      x-api-path-slug: subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoftapimanagementserviceservicenameidentityprovidersidentityprovidername-delete
+      x-api-path-slug: subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-apimanagementserviceservicenameidentityprovidersidentityprovidername-delete
       parameters:
       - in: header
         name: If-Match
@@ -1114,7 +1114,7 @@ paths:
       summary: Loggers ListByService
       description: Lists a collection of loggers in the specified service instance.
       operationId: Loggers_ListByService
-      x-api-path-slug: subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoftapimanagementserviceservicenameloggers-get
+      x-api-path-slug: subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-apimanagementserviceservicenameloggers-get
       parameters:
       - in: query
         name: $filter
@@ -1133,7 +1133,7 @@ paths:
       summary: Loggers Get
       description: Gets the details of the logger specified by its identifier.
       operationId: Loggers_Get
-      x-api-path-slug: subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoftapimanagementserviceservicenameloggersloggerid-get
+      x-api-path-slug: subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-apimanagementserviceservicenameloggersloggerid-get
       parameters:
       - in: query
         name: No Name
@@ -1146,7 +1146,7 @@ paths:
       summary: Loggers CreateOrUpdate
       description: Creates or Updates a logger.
       operationId: Loggers_CreateOrUpdate
-      x-api-path-slug: subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoftapimanagementserviceservicenameloggersloggerid-put
+      x-api-path-slug: subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-apimanagementserviceservicenameloggersloggerid-put
       parameters:
       - in: query
         name: No Name
@@ -1164,7 +1164,7 @@ paths:
       summary: Loggers Update
       description: Updates an existing logger.
       operationId: Loggers_Update
-      x-api-path-slug: subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoftapimanagementserviceservicenameloggersloggerid-patch
+      x-api-path-slug: subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-apimanagementserviceservicenameloggersloggerid-patch
       parameters:
       - in: header
         name: If-Match
@@ -1185,7 +1185,7 @@ paths:
       summary: Loggers Delete
       description: Deletes the specified logger.
       operationId: Loggers_Delete
-      x-api-path-slug: subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoftapimanagementserviceservicenameloggersloggerid-delete
+      x-api-path-slug: subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-apimanagementserviceservicenameloggersloggerid-delete
       parameters:
       - in: header
         name: If-Match
@@ -1204,7 +1204,7 @@ paths:
         the Api Management service depends from inside the Cloud Service. This also
         returns the DNS Servers as visible to the CloudService.
       operationId: NetworkStatus_GetByService
-      x-api-path-slug: subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoftapimanagementserviceservicenamenetworkstatus-get
+      x-api-path-slug: subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-apimanagementserviceservicenamenetworkstatus-get
       parameters:
       - in: query
         name: No Name
@@ -1218,7 +1218,7 @@ paths:
       summary: OpenIdConnectProviders ListByService
       description: Lists all OpenID Connect Providers.
       operationId: OpenIdConnectProviders_ListByService
-      x-api-path-slug: subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoftapimanagementserviceservicenameopenidconnectproviders-get
+      x-api-path-slug: subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-apimanagementserviceservicenameopenidconnectproviders-get
       parameters:
       - in: query
         name: $filter
@@ -1238,7 +1238,7 @@ paths:
       summary: OpenIdConnectProviders Get
       description: Gets specific OpenID Connect Provider.
       operationId: OpenIdConnectProviders_Get
-      x-api-path-slug: subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoftapimanagementserviceservicenameopenidconnectprovidersopid-get
+      x-api-path-slug: subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-apimanagementserviceservicenameopenidconnectprovidersopid-get
       parameters:
       - in: query
         name: No Name
@@ -1251,7 +1251,7 @@ paths:
       summary: OpenIdConnectProviders CreateOrUpdate
       description: Creates or updates the OpenID Connect Provider.
       operationId: OpenIdConnectProviders_CreateOrUpdate
-      x-api-path-slug: subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoftapimanagementserviceservicenameopenidconnectprovidersopid-put
+      x-api-path-slug: subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-apimanagementserviceservicenameopenidconnectprovidersopid-put
       parameters:
       - in: query
         name: No Name
@@ -1269,7 +1269,7 @@ paths:
       summary: OpenIdConnectProviders Update
       description: Updates the specific OpenID Connect Provider.
       operationId: OpenIdConnectProviders_Update
-      x-api-path-slug: subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoftapimanagementserviceservicenameopenidconnectprovidersopid-patch
+      x-api-path-slug: subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-apimanagementserviceservicenameopenidconnectprovidersopid-patch
       parameters:
       - in: header
         name: If-Match
@@ -1292,7 +1292,7 @@ paths:
       description: Deletes specific OpenID Connect Provider of the API Management
         service instance.
       operationId: OpenIdConnectProviders_Delete
-      x-api-path-slug: subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoftapimanagementserviceservicenameopenidconnectprovidersopid-delete
+      x-api-path-slug: subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-apimanagementserviceservicenameopenidconnectprovidersopid-delete
       parameters:
       - in: header
         name: If-Match
@@ -1310,7 +1310,7 @@ paths:
       summary: Products ListByService
       description: Lists a collection of products in the specified service instance.
       operationId: Products_ListByService
-      x-api-path-slug: subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoftapimanagementserviceservicenameproducts-get
+      x-api-path-slug: subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-apimanagementserviceservicenameproducts-get
       parameters:
       - in: query
         name: $filter
@@ -1336,7 +1336,7 @@ paths:
       summary: Products Get
       description: Gets the details of the product specified by its identifier.
       operationId: Products_Get
-      x-api-path-slug: subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoftapimanagementserviceservicenameproductsproductid-get
+      x-api-path-slug: subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-apimanagementserviceservicenameproductsproductid-get
       parameters:
       - in: query
         name: No Name
@@ -1349,7 +1349,7 @@ paths:
       summary: Products CreateOrUpdate
       description: Creates or Updates a product.
       operationId: Products_CreateOrUpdate
-      x-api-path-slug: subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoftapimanagementserviceservicenameproductsproductid-put
+      x-api-path-slug: subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-apimanagementserviceservicenameproductsproductid-put
       parameters:
       - in: query
         name: No Name
@@ -1367,7 +1367,7 @@ paths:
       summary: Products Update
       description: Update product.
       operationId: Products_Update
-      x-api-path-slug: subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoftapimanagementserviceservicenameproductsproductid-patch
+      x-api-path-slug: subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-apimanagementserviceservicenameproductsproductid-patch
       parameters:
       - in: header
         name: If-Match
@@ -1388,7 +1388,7 @@ paths:
       summary: Products Delete
       description: Delete product.
       operationId: Products_Delete
-      x-api-path-slug: subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoftapimanagementserviceservicenameproductsproductid-delete
+      x-api-path-slug: subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-apimanagementserviceservicenameproductsproductid-delete
       parameters:
       - in: query
         name: deleteSubscriptions
@@ -1408,7 +1408,7 @@ paths:
       summary: ProductApis ListByProducts
       description: Lists a collection of the APIs associated with a product.
       operationId: ProductApis_ListByProducts
-      x-api-path-slug: subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoftapimanagementserviceservicenameproductsproductidapis-get
+      x-api-path-slug: subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-apimanagementserviceservicenameproductsproductidapis-get
       parameters:
       - in: query
         name: $filter
@@ -1431,7 +1431,7 @@ paths:
       summary: ProductApis Create
       description: Adds an API to the specified product.
       operationId: ProductApis_Create
-      x-api-path-slug: subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoftapimanagementserviceservicenameproductsproductidapisapiid-put
+      x-api-path-slug: subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-apimanagementserviceservicenameproductsproductidapisapiid-put
       parameters:
       - in: query
         name: No Name
@@ -1444,7 +1444,7 @@ paths:
       summary: ProductApis Delete
       description: Deletes the specified API from the specified product.
       operationId: ProductApis_Delete
-      x-api-path-slug: subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoftapimanagementserviceservicenameproductsproductidapisapiid-delete
+      x-api-path-slug: subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-apimanagementserviceservicenameproductsproductidapisapiid-delete
       parameters:
       - in: query
         name: No Name
@@ -1459,7 +1459,7 @@ paths:
       description: Lists the collection of developer groups associated with the specified
         product.
       operationId: ProductGroups_ListByProducts
-      x-api-path-slug: subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoftapimanagementserviceservicenameproductsproductidgroups-get
+      x-api-path-slug: subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-apimanagementserviceservicenameproductsproductidgroups-get
       parameters:
       - in: query
         name: $filter
@@ -1482,7 +1482,7 @@ paths:
       description: Adds the association between the specified developer group with
         the specified product.
       operationId: ProductGroups_Create
-      x-api-path-slug: subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoftapimanagementserviceservicenameproductsproductidgroupsgroupid-put
+      x-api-path-slug: subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-apimanagementserviceservicenameproductsproductidgroupsgroupid-put
       parameters:
       - in: query
         name: No Name
@@ -1495,7 +1495,7 @@ paths:
       summary: ProductGroups Delete
       description: Deletes the association between the specified group and product.
       operationId: ProductGroups_Delete
-      x-api-path-slug: subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoftapimanagementserviceservicenameproductsproductidgroupsgroupid-delete
+      x-api-path-slug: subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-apimanagementserviceservicenameproductsproductidgroupsgroupid-delete
       parameters:
       - in: query
         name: No Name
@@ -1509,7 +1509,7 @@ paths:
       summary: ProductSubscriptions ListByProducts
       description: Lists the collection of subscriptions to the specified product.
       operationId: ProductSubscriptions_ListByProducts
-      x-api-path-slug: subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoftapimanagementserviceservicenameproductsproductidsubscriptions-get
+      x-api-path-slug: subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-apimanagementserviceservicenameproductsproductidsubscriptions-get
       parameters:
       - in: query
         name: $filter
@@ -1533,7 +1533,7 @@ paths:
       summary: ProductPolicy Get
       description: Get the policy configuration at the Product level.
       operationId: ProductPolicy_Get
-      x-api-path-slug: subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoftapimanagementserviceservicenameproductsproductidpolicy-get
+      x-api-path-slug: subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-apimanagementserviceservicenameproductsproductidpolicy-get
       parameters:
       - in: query
         name: No Name
@@ -1546,7 +1546,7 @@ paths:
       summary: ProductPolicy CreateOrUpdate
       description: Creates or updates policy configuration for the Product.
       operationId: ProductPolicy_CreateOrUpdate
-      x-api-path-slug: subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoftapimanagementserviceservicenameproductsproductidpolicy-put
+      x-api-path-slug: subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-apimanagementserviceservicenameproductsproductidpolicy-put
       parameters:
       - in: header
         name: If-Match
@@ -1567,7 +1567,7 @@ paths:
       summary: ProductPolicy Delete
       description: Deletes the policy configuration at the Product.
       operationId: ProductPolicy_Delete
-      x-api-path-slug: subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoftapimanagementserviceservicenameproductsproductidpolicy-delete
+      x-api-path-slug: subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-apimanagementserviceservicenameproductsproductidpolicy-delete
       parameters:
       - in: header
         name: If-Match
@@ -1584,7 +1584,7 @@ paths:
       summary: Properties ListByService
       description: Lists a collection of properties defined within a service instance.
       operationId: Properties_ListByService
-      x-api-path-slug: subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoftapimanagementserviceservicenameproperties-get
+      x-api-path-slug: subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-apimanagementserviceservicenameproperties-get
       parameters:
       - in: query
         name: $filter
@@ -1604,7 +1604,7 @@ paths:
       summary: Property Get
       description: Gets the details of the property specified by its identifier.
       operationId: Property_Get
-      x-api-path-slug: subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoftapimanagementserviceservicenamepropertiespropid-get
+      x-api-path-slug: subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-apimanagementserviceservicenamepropertiespropid-get
       parameters:
       - in: query
         name: No Name
@@ -1617,7 +1617,7 @@ paths:
       summary: Property CreateOrUpdate
       description: Creates or updates a property.
       operationId: Property_CreateOrUpdate
-      x-api-path-slug: subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoftapimanagementserviceservicenamepropertiespropid-put
+      x-api-path-slug: subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-apimanagementserviceservicenamepropertiespropid-put
       parameters:
       - in: query
         name: No Name
@@ -1635,7 +1635,7 @@ paths:
       summary: Property Update
       description: Updates the specific property.
       operationId: Property_Update
-      x-api-path-slug: subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoftapimanagementserviceservicenamepropertiespropid-patch
+      x-api-path-slug: subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-apimanagementserviceservicenamepropertiespropid-patch
       parameters:
       - in: header
         name: If-Match
@@ -1656,7 +1656,7 @@ paths:
       summary: Property Delete
       description: Deletes specific property from the the API Management service instance.
       operationId: Property_Delete
-      x-api-path-slug: subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoftapimanagementserviceservicenamepropertiespropid-delete
+      x-api-path-slug: subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-apimanagementserviceservicenamepropertiespropid-delete
       parameters:
       - in: header
         name: If-Match
@@ -1675,7 +1675,7 @@ paths:
         with the counter-key configured in the policy on the specified service instance.
         The api does not support paging yet.
       operationId: QuotaByCounterKeys_ListByService
-      x-api-path-slug: subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoftapimanagementserviceservicenamequotasquotacounterkey-get
+      x-api-path-slug: subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-apimanagementserviceservicenamequotasquotacounterkey-get
       parameters:
       - in: query
         name: No Name
@@ -1690,7 +1690,7 @@ paths:
         quota counter key to a value in the specified service instance. This should
         be used for reset of the quota counter values.
       operationId: QuotaByCounterKeys_Update
-      x-api-path-slug: subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoftapimanagementserviceservicenamequotasquotacounterkey-patch
+      x-api-path-slug: subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-apimanagementserviceservicenamequotasquotacounterkey-patch
       parameters:
       - in: query
         name: No Name
@@ -1711,7 +1711,7 @@ paths:
       description: Gets the value of the quota counter associated with the counter-key
         in the policy for the specific period in service instance.
       operationId: QuotaByPeriodKeys_Get
-      x-api-path-slug: subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoftapimanagementserviceservicenamequotasquotacounterkeyquotaperiodkey-get
+      x-api-path-slug: subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-apimanagementserviceservicenamequotasquotacounterkeyquotaperiodkey-get
       parameters:
       - in: query
         name: No Name
@@ -1725,7 +1725,7 @@ paths:
       description: Updates an existing quota counter value in the specified service
         instance.
       operationId: QuotaByPeriodKeys_Update
-      x-api-path-slug: subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoftapimanagementserviceservicenamequotasquotacounterkeyquotaperiodkey-patch
+      x-api-path-slug: subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-apimanagementserviceservicenamequotasquotacounterkeyquotaperiodkey-patch
       parameters:
       - in: query
         name: No Name
@@ -1745,7 +1745,7 @@ paths:
       summary: Reports ListByService
       description: Lists report records.
       operationId: Reports_ListByService
-      x-api-path-slug: subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoftapimanagementserviceservicenamereportsaggregation-get
+      x-api-path-slug: subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-apimanagementserviceservicenamereportsaggregation-get
       parameters:
       - in: query
         name: $filter
@@ -1768,7 +1768,7 @@ paths:
       summary: Subscriptions List
       description: Lists all subscriptions of the API Management service instance.
       operationId: Subscriptions_List
-      x-api-path-slug: subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoftapimanagementserviceservicenamesubscriptions-get
+      x-api-path-slug: subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-apimanagementserviceservicenamesubscriptions-get
       parameters:
       - in: query
         name: $filter
@@ -1792,7 +1792,7 @@ paths:
       summary: Subscriptions Get
       description: Gets the specified Subscription entity.
       operationId: Subscriptions_Get
-      x-api-path-slug: subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoftapimanagementserviceservicenamesubscriptionssid-get
+      x-api-path-slug: subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-apimanagementserviceservicenamesubscriptionssid-get
       parameters:
       - in: query
         name: No Name
@@ -1806,7 +1806,7 @@ paths:
       description: Creates or updates the subscription of specified user to the specified
         product.
       operationId: Subscriptions_CreateOrUpdate
-      x-api-path-slug: subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoftapimanagementserviceservicenamesubscriptionssid-put
+      x-api-path-slug: subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-apimanagementserviceservicenamesubscriptionssid-put
       parameters:
       - in: query
         name: No Name
@@ -1824,7 +1824,7 @@ paths:
       summary: Subscriptions Update
       description: Updates the details of a subscription specificied by its identifier.
       operationId: Subscriptions_Update
-      x-api-path-slug: subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoftapimanagementserviceservicenamesubscriptionssid-patch
+      x-api-path-slug: subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-apimanagementserviceservicenamesubscriptionssid-patch
       parameters:
       - in: header
         name: If-Match
@@ -1845,7 +1845,7 @@ paths:
       summary: Subscriptions Delete
       description: Deletes the specified subscription.
       operationId: Subscriptions_Delete
-      x-api-path-slug: subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoftapimanagementserviceservicenamesubscriptionssid-delete
+      x-api-path-slug: subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-apimanagementserviceservicenamesubscriptionssid-delete
       parameters:
       - in: header
         name: If-Match
@@ -1863,7 +1863,7 @@ paths:
       description: Regenerates primary key of existing subscription of the API Management
         service instance.
       operationId: Subscriptions_RegeneratePrimaryKey
-      x-api-path-slug: subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoftapimanagementserviceservicenamesubscriptionssidregenerateprimarykey-post
+      x-api-path-slug: subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-apimanagementserviceservicenamesubscriptionssidregenerateprimarykey-post
       parameters:
       - in: query
         name: No Name
@@ -1878,7 +1878,7 @@ paths:
       description: Regenerates secondary key of existing subscription of the API Management
         service instance.
       operationId: Subscriptions_RegenerateSecondaryKey
-      x-api-path-slug: subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoftapimanagementserviceservicenamesubscriptionssidregeneratesecondarykey-post
+      x-api-path-slug: subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-apimanagementserviceservicenamesubscriptionssidregeneratesecondarykey-post
       parameters:
       - in: query
         name: No Name
@@ -1892,7 +1892,7 @@ paths:
       summary: TenantAccess Get
       description: Get tenant access information details.
       operationId: TenantAccess_Get
-      x-api-path-slug: subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoftapimanagementserviceservicenametenantaccess-get
+      x-api-path-slug: subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-apimanagementserviceservicenametenantaccess-get
       parameters:
       - in: query
         name: No Name
@@ -1905,7 +1905,7 @@ paths:
       summary: TenantAccess Update
       description: Update tenant access information details.
       operationId: TenantAccess_Update
-      x-api-path-slug: subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoftapimanagementserviceservicenametenantaccess-patch
+      x-api-path-slug: subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-apimanagementserviceservicenametenantaccess-patch
       parameters:
       - in: header
         name: If-Match
@@ -1928,7 +1928,7 @@ paths:
       summary: TenantAccess RegeneratePrimaryKey
       description: Regenerate primary access key.
       operationId: TenantAccess_RegeneratePrimaryKey
-      x-api-path-slug: subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoftapimanagementserviceservicenametenantaccessregenerateprimarykey-post
+      x-api-path-slug: subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-apimanagementserviceservicenametenantaccessregenerateprimarykey-post
       parameters:
       - in: query
         name: No Name
@@ -1942,7 +1942,7 @@ paths:
       summary: TenantAccess RegenerateSecondaryKey
       description: Regenerate secondary access key.
       operationId: TenantAccess_RegenerateSecondaryKey
-      x-api-path-slug: subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoftapimanagementserviceservicenametenantaccessregeneratesecondarykey-post
+      x-api-path-slug: subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-apimanagementserviceservicenametenantaccessregeneratesecondarykey-post
       parameters:
       - in: query
         name: No Name
@@ -1956,7 +1956,7 @@ paths:
       summary: TenantAccessGit Get
       description: Gets the Git access configuration for the tenant.
       operationId: TenantAccessGit_Get
-      x-api-path-slug: subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoftapimanagementserviceservicenametenantaccessgit-get
+      x-api-path-slug: subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-apimanagementserviceservicenametenantaccessgit-get
       parameters:
       - in: query
         name: No Name
@@ -1970,7 +1970,7 @@ paths:
       summary: TenantAccessGit RegeneratePrimaryKey
       description: Regenerate primary access key for GIT.
       operationId: TenantAccessGit_RegeneratePrimaryKey
-      x-api-path-slug: subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoftapimanagementserviceservicenametenantaccessgitregenerateprimarykey-post
+      x-api-path-slug: subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-apimanagementserviceservicenametenantaccessgitregenerateprimarykey-post
       parameters:
       - in: query
         name: No Name
@@ -1984,7 +1984,7 @@ paths:
       summary: TenantAccessGit RegenerateSecondaryKey
       description: Regenerate secondary access key for GIT.
       operationId: TenantAccessGit_RegenerateSecondaryKey
-      x-api-path-slug: subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoftapimanagementserviceservicenametenantaccessgitregeneratesecondarykey-post
+      x-api-path-slug: subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-apimanagementserviceservicenametenantaccessgitregeneratesecondarykey-post
       parameters:
       - in: query
         name: No Name
@@ -2000,7 +2000,7 @@ paths:
         the configuration database. This is a long running operation and could take
         several minutes to complete.
       operationId: TenantConfiguration_Deploy
-      x-api-path-slug: subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoftapimanagementserviceservicenametenantconfigurationdeploy-post
+      x-api-path-slug: subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-apimanagementserviceservicenametenantconfigurationdeploy-post
       parameters:
       - in: query
         name: No Name
@@ -2021,7 +2021,7 @@ paths:
         snapshot to the specified branch in the repository. This is a long running
         operation and could take several minutes to complete.
       operationId: TenantConfiguration_Save
-      x-api-path-slug: subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoftapimanagementserviceservicenametenantconfigurationsave-post
+      x-api-path-slug: subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-apimanagementserviceservicenametenantconfigurationsave-post
       parameters:
       - in: query
         name: No Name
@@ -2041,7 +2041,7 @@ paths:
       description: This operation validates the changes in the specified Git branch.
         This is a long running operation and could take several minutes to complete.
       operationId: TenantConfiguration_Validate
-      x-api-path-slug: subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoftapimanagementserviceservicenametenantconfigurationvalidate-post
+      x-api-path-slug: subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-apimanagementserviceservicenametenantconfigurationvalidate-post
       parameters:
       - in: query
         name: No Name
@@ -2061,7 +2061,7 @@ paths:
       description: Gets the status of the most recent synchronization between the
         configuration database and the Git repository.
       operationId: TenantConfigurationSyncState_Get
-      x-api-path-slug: subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoftapimanagementserviceservicenametenantconfigurationsyncstate-get
+      x-api-path-slug: subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-apimanagementserviceservicenametenantconfigurationsyncstate-get
       parameters:
       - in: query
         name: No Name
@@ -2075,7 +2075,7 @@ paths:
       summary: TenantPolicy Get
       description: Get the global policy configuration of the tenant.
       operationId: TenantPolicy_Get
-      x-api-path-slug: subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoftapimanagementserviceservicenametenantpolicy-get
+      x-api-path-slug: subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-apimanagementserviceservicenametenantpolicy-get
       parameters:
       - in: query
         name: No Name
@@ -2088,7 +2088,7 @@ paths:
       summary: TenantPolicy CreateOrUpdate
       description: Creates or updates global policy configuration for the tenant.
       operationId: TenantPolicy_CreateOrUpdate
-      x-api-path-slug: subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoftapimanagementserviceservicenametenantpolicy-put
+      x-api-path-slug: subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-apimanagementserviceservicenametenantpolicy-put
       parameters:
       - in: header
         name: If-Match
@@ -2109,7 +2109,7 @@ paths:
       summary: TenantPolicy Delete
       description: Deletes the global tenant policy configuration.
       operationId: TenantPolicy_Delete
-      x-api-path-slug: subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoftapimanagementserviceservicenametenantpolicy-delete
+      x-api-path-slug: subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-apimanagementserviceservicenametenantpolicy-delete
       parameters:
       - in: header
         name: If-Match
@@ -2127,7 +2127,7 @@ paths:
       description: Lists a collection of registered users in the specified service
         instance.
       operationId: Users_ListByService
-      x-api-path-slug: subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoftapimanagementserviceservicenameusers-get
+      x-api-path-slug: subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-apimanagementserviceservicenameusers-get
       parameters:
       - in: query
         name: $filter
@@ -2152,7 +2152,7 @@ paths:
       summary: Users Get
       description: Gets the details of the user specified by its identifier.
       operationId: Users_Get
-      x-api-path-slug: subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoftapimanagementserviceservicenameusersuid-get
+      x-api-path-slug: subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-apimanagementserviceservicenameusersuid-get
       parameters:
       - in: query
         name: No Name
@@ -2165,7 +2165,7 @@ paths:
       summary: Users CreateOrUpdate
       description: Creates or Updates a user.
       operationId: Users_CreateOrUpdate
-      x-api-path-slug: subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoftapimanagementserviceservicenameusersuid-put
+      x-api-path-slug: subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-apimanagementserviceservicenameusersuid-put
       parameters:
       - in: query
         name: No Name
@@ -2183,7 +2183,7 @@ paths:
       summary: Users Update
       description: Updates the details of the user specified by its identifier.
       operationId: Users_Update
-      x-api-path-slug: subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoftapimanagementserviceservicenameusersuid-patch
+      x-api-path-slug: subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-apimanagementserviceservicenameusersuid-patch
       parameters:
       - in: header
         name: If-Match
@@ -2204,7 +2204,7 @@ paths:
       summary: Users Delete
       description: Deletes specific user.
       operationId: Users_Delete
-      x-api-path-slug: subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoftapimanagementserviceservicenameusersuid-delete
+      x-api-path-slug: subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-apimanagementserviceservicenameusersuid-delete
       parameters:
       - in: query
         name: deleteSubscriptions
@@ -2225,7 +2225,7 @@ paths:
       description: Retrieves a redirection URL containing an authentication token
         for signing a given user into the developer portal.
       operationId: Users_GenerateSsoUrl
-      x-api-path-slug: subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoftapimanagementserviceservicenameusersuidgeneratessourl-post
+      x-api-path-slug: subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-apimanagementserviceservicenameusersuidgeneratessourl-post
       parameters:
       - in: query
         name: No Name
@@ -2239,7 +2239,7 @@ paths:
       summary: UserGroups ListByUsers
       description: Lists all user groups.
       operationId: UserGroups_ListByUsers
-      x-api-path-slug: subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoftapimanagementserviceservicenameusersuidgroups-get
+      x-api-path-slug: subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-apimanagementserviceservicenameusersuidgroups-get
       parameters:
       - in: query
         name: $filter
@@ -2260,7 +2260,7 @@ paths:
       summary: UserSubscriptions ListByUsers
       description: Lists the collection of subscriptions of the specified user.
       operationId: UserSubscriptions_ListByUsers
-      x-api-path-slug: subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoftapimanagementserviceservicenameusersuidsubscriptions-get
+      x-api-path-slug: subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-apimanagementserviceservicenameusersuidsubscriptions-get
       parameters:
       - in: query
         name: $filter
@@ -2284,7 +2284,7 @@ paths:
       summary: UserIdentities ListByUsers
       description: Lists all user identities.
       operationId: UserIdentities_ListByUsers
-      x-api-path-slug: subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoftapimanagementserviceservicenameusersuididentities-get
+      x-api-path-slug: subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-apimanagementserviceservicenameusersuididentities-get
       parameters:
       - in: query
         name: No Name
