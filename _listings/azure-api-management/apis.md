@@ -8,10 +8,10 @@ description: Use Azure API Management as a turnkey solution for publishing APIs 
   onboarding to help get your API program up and running.
 image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/azure-api-management.png
 x-kinRank: "10"
-x-alexaRank: ""
+x-alexaRank: "0"
 tags: Azure API Management
-created: "2018-05-24"
-modified: "2018-05-24"
+created: "2018-06-20"
+modified: "2018-06-20"
 url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-api-management/master/_listings/azure-api-management/apis.md
 specificationVersion: "0.14"
 apis:
