@@ -4,7 +4,7 @@ url: azure-api-management.streamdata.gallery
 tag: Azure API Management
 markdown: kramdown
 exclude: [".rvmrc", ".rbenv-version", "README.md", "Rakefile", "changelog.md", ".DS_Store"]
-github_user: streamdata-gallery-entities
+github_user: streamdata-gallery-topics
 github_repo: azure-api-management
 github_branch: master
 collections:
